@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://yongjhih.github.com/atom.xml" rel="self"/>
+  <link href="http://yongjhih.github.com/"/>
+  <updated>2012-03-07T01:18:14+08:00</updated>
+  <id>http://yongjhih.github.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello octopress]]></title>
+    <link href="http://yongjhih.github.com/blog/2012/03/07/test/"/>
+    <updated>2012-03-07T00:21:00+08:00</updated>
+    <id>http://yongjhih.github.com/blog/2012/03/07/test</id>
+    <content type="html"><![CDATA[<h1>Hello octopress!</h1>
+
+<p>After nanoblogger, this is the first static blogger I try.</p>
+
+<p>I whould like to write pages in reStructuredText(rst) more than Markdown(md). So, I need a blogger which must support rst and compatible markdown better.</p>
+
+<p>My next step will find out rst solution into Octopress.</p>
+]]></content>
+  </entry>
+  
+</feed>
