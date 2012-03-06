@@ -4,7 +4,7 @@
   <title><![CDATA[Yongjhih's Octopress Blog]]></title>
   <link href="http://yongjhih.github.com/atom.xml" rel="self"/>
   <link href="http://yongjhih.github.com/"/>
-  <updated>2012-03-07T01:50:48+08:00</updated>
+  <updated>2012-03-07T02:15:39+08:00</updated>
   <id>http://yongjhih.github.com/</id>
   <author>
     <name><![CDATA[Andrew Chen (Yongjhih Chen)]]></name>
@@ -18,13 +18,69 @@
     <link href="http://yongjhih.github.com/blog/2012/03/07/test/"/>
     <updated>2012-03-07T00:21:00+08:00</updated>
     <id>http://yongjhih.github.com/blog/2012/03/07/test</id>
-    <content type="html"><![CDATA[<h1>Hello octopress!</h1>
+    <content type="html"><![CDATA[<h1>Hello Octopress!</h1>
 
 <p>After nanoblogger, this is the first static blogger I try.</p>
 
 <p>I whould like to write pages in reStructuredText(rst) more than Markdown(md). So, I need a blogger which must support rst and compatible markdown better.</p>
 
 <p>My next step will find out rst solution into Octopress.</p>
+
+<h1>Markdown</h1>
+
+<p>Backtick Code block (plain):</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | bash
+</span><span class='line'>$ source /Users/xdissent/.venvburrito/startup.sh
+</span><span class='line'>$ mkvirtualenv jekyll-rst
+</span><span class='line'>$ pip install docutils pygments</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Including a file extension in the title enables highlighting:</p>
+
+<figure class='code'><figcaption><span>Install jekyll-rst - install-jekyll-rst.bash </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='bash'><span class='line'><span class="nv">$ </span>curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | bash
+</span><span class='line'><span class="nv">$ </span><span class="nb">source</span> /Users/xdissent/.venvburrito/startup.sh
+</span><span class='line'><span class="nv">$ </span>mkvirtualenv jekyll-rst
+</span><span class='line'><span class="nv">$ </span>pip install docutils pygments
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Non-ordered List:</p>
+
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+
+
+<p>Non-ordered List:</p>
+
+<ol>
+<li>One</li>
+<li>Two</li>
+<li>Three</li>
+</ol>
+
+
+<h1>CJK Test</h1>
+
+<h2>中文測試</h2>
+
+<p>2004 使用 nanoblogger 之後，第一次使用靜態生成的部落格工具。</p>
+
+<p>我偏好使用 rst 居多，次要使用 markdown 。所以在挑選生成網頁工具都必須要支援 rst ，順便同時支援 markdown 最好了。</p>
+
+<p>所以下一步我會想辦法找出 octopress 支援 rst 的方法。</p>
 ]]></content>
   </entry>
   
