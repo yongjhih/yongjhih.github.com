@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Hello octopress"
+date: 2012-03-07 00:21
+comments: true
+categories: 
+---
+Hello octopress!
+================
+
+After nanoblogger, this is the first static blogger I try.
+
+I whould like to write pages in reStructuredText(rst) more than Markdown(md). So, I need a blogger which must support rst and compatible markdown better.
+
+My next step will find out rst solution into Octopress.
+
