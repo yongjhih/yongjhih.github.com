@@ -5,12 +5,61 @@ date: 2012-03-07 00:21
 comments: true
 categories: 
 ---
-Hello octopress!
+Hello Octopress!
 ================
 
 After nanoblogger, this is the first static blogger I try.
 
-I whould like to write pages in reStructuredText(rst) more than Markdown(md). So, I need a blogger which must support rst and compatible markdown better.
+I would like to write pages in reStructuredText(rst) more than Markdown(md).
+So, I need a blogger which must support rst and compatible markdown better.
 
 My next step will find out rst solution into Octopress.
+
+Markdown
+========
+
+Backtick Code block (plain):
+
+```
+$ curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | bash
+$ source /Users/xdissent/.venvburrito/startup.sh
+$ mkvirtualenv jekyll-rst
+$ pip install docutils pygments
+```
+
+Including a file extension in the title enables highlighting:
+
+{% codeblock Install jekyll-rst - install-jekyll-rst.bash %}
+$ curl -s https://raw.github.com/brainsik/virtualenv-burrito/master/virtualenv-burrito.sh | bash
+$ source /Users/xdissent/.venvburrito/startup.sh
+$ mkvirtualenv jekyll-rst
+$ pip install docutils pygments
+{% endcodeblock %}
+
+Non-ordered List:
+
+* Red
+* Green
+* Blue
+
+Ordered List:
+
+1. One
+2. Two
+3. Three
+
+CJK Test
+========
+
+中文測試
+--------
+
+2004 使用 nanoblogger 之後，
+第一次使用靜態生成的部落格工具。
+
+我偏好使用 rst 居多，次要使用 markdown 。
+所以在挑選生成網頁工具都必須要支援 rst ，
+順便同時支援 markdown 最好了。
+
+所以下一步我會想辦法找出 octopress 支援 rst 的方法。
 
