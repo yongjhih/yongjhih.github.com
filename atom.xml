@@ -4,7 +4,7 @@
   <title><![CDATA[Yongjhih's Octopress Blog]]></title>
   <link href="http://yongjhih.github.com/atom.xml" rel="self"/>
   <link href="http://yongjhih.github.com/"/>
-  <updated>2012-03-07T02:19:23+08:00</updated>
+  <updated>2012-03-07T08:29:49+08:00</updated>
   <id>http://yongjhih.github.com/</id>
   <author>
     <name><![CDATA[Andrew Chen (Yongjhih Chen)]]></name>
@@ -22,7 +22,7 @@
 
 <p>After nanoblogger, this is the first static blogger I try.</p>
 
-<p>I whould like to write pages in reStructuredText(rst) more than Markdown(md). So, I need a blogger which must support rst and compatible markdown better.</p>
+<p>I would like to write pages in reStructuredText(rst) more than Markdown(md). So, I need a blogger which must support rst and compatible markdown better.</p>
 
 <p>My next step will find out rst solution into Octopress.</p>
 
