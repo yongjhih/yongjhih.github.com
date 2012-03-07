@@ -4,7 +4,7 @@
   <title><![CDATA[Yongjhih's Octopress Blog]]></title>
   <link href="http://yongjhih.github.com/atom.xml" rel="self"/>
   <link href="http://yongjhih.github.com/"/>
-  <updated>2012-03-07T08:29:49+08:00</updated>
+  <updated>2012-03-07T10:49:06+08:00</updated>
   <id>http://yongjhih.github.com/</id>
   <author>
     <name><![CDATA[Andrew Chen (Yongjhih Chen)]]></name>
@@ -22,7 +22,8 @@
 
 <p>After nanoblogger, this is the first static blogger I try.</p>
 
-<p>I would like to write pages in reStructuredText(rst) more than Markdown(md). So, I need a blogger which must support rst and compatible markdown better.</p>
+<p>I would like to write pages in reStructuredText(rst) more than Markdown(md).
+So, I need a blogger which must support rst and compatible markdown better.</p>
 
 <p>My next step will find out rst solution into Octopress.</p>
 
@@ -76,9 +77,12 @@
 
 <h2>中文測試</h2>
 
-<p>2004 使用 nanoblogger 之後，第一次使用靜態生成的部落格工具。</p>
+<p>2004 使用 nanoblogger 之後，
+第一次使用靜態生成的部落格工具。</p>
 
-<p>我偏好使用 rst 居多，次要使用 markdown 。所以在挑選生成網頁工具都必須要支援 rst ，順便同時支援 markdown 最好了。</p>
+<p>我偏好使用 rst 居多，次要使用 markdown 。
+所以在挑選生成網頁工具都必須要支援 rst ，
+順便同時支援 markdown 最好了。</p>
 
 <p>所以下一步我會想辦法找出 octopress 支援 rst 的方法。</p>
 ]]></content>
